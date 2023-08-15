@@ -33,7 +33,7 @@ body {
   line-height: 1.5;
   color: #495057;
   text-align: left;
-  background-color: #fff;
+  background-color: #e9e6e6;
 }
 
 [tabindex="-1"]:focus {
@@ -185,7 +185,7 @@ table {
 caption {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-  color: #6c757d;
+  color: #1e75c2;
   text-align: left;
   caption-side: bottom;
 }
@@ -4908,10 +4908,6 @@ input[type="button"].btn-block {
 
 .navbar-expand .navbar-toggler {
   display: none;
-}
-
-.navbar-light .navbar-brand {
-  color: rgba(0, 0, 0, 0.9);
 }
 
 .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
@@ -11316,7 +11312,7 @@ pre {
 }
 
 .navbar .navbar-brand img {
-  width: 75px;
+  width: 40px;
   -webkit-filter: drop-shadow(1px 2px 25px rgba(206, 212, 218, 0.9));
           filter: drop-shadow(1px 2px 25px rgba(206, 212, 218, 0.9));
 }
