@@ -1,2 +1,2 @@
-# Portifolio
-Meu portifolio pessoal em JS
+# MeuPorfolio
+https://github.com/perealvees/Portfolio

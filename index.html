@@ -1,179 +1,184 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
+
 <head>
-	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Portfolio Priscilla Alves.">
-    <meta name="author" content="DevPriscillaAlves">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/media.css">
+    <script src="https://kit.fontawesome.com/cc296cbc2d.js" crossorigin="anonymous"></script>
     <title>Priscilla Alves</title>
-    <!-- font icons -->
-    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
-    <!-- Bootstrap + Steller main styles -->
-	<link rel="stylesheet" href="assets/css/steller.css">
 </head>
-<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
 
-    <!-- Page navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" data-spy="affix" data-offset-top="0">
-        <div class="container">
-            <a class="navbar-brand" href="#"><img src="assets/imgs/frontend-icon-21.jpg" alt=""></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto align-items-center">
-                    <li class="nav-item">
-                        <a class="nav-link" href="Sobre mim">SOBRE MIM</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Meus projetos">MEUS PROJETOS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Contato">CONTATO</a>
-                    </li>                   
-                    <li class="nav-item">
-                        <a class="- btn btn-primary rounded ml-4" href="components.html">Fale comigo!</a>
-                    </li>
+<body>
+    <!--HEADER-NAVBAR-->
+    <header class="bg-container">
+        <div class="container-navbar">
+            <div class="logo-menu">
+                <h1><span>P</span>ortfólio</h1>
+                <div class="btn-mobile" onclick="toggle()">
+                    <img src="img/menu.png" alt="">
+                </div>
+            </div>
+            <nav class="navbar menuMobileNone">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contatos">Contatos</a></li>
                 </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!--MIDDLE-->
+    <section class="middle-top">
+        <div class="info-titulo">
+            <h1><span>P</span>riscilla Alves</h1>
+            <h2> || Desenvolvedora
+                FrontEnd ||
+            </h2>
+        </div>
+        <div class="image-top">
+            <img src="img/uiii4.svg" alt="">
+        </div>
+
+    </section>
+
+    <!--Content portfolio-->
+    <main id="sobre" class="container-portfolio">
+        <section>
+            <article class="article-img">
+                <img src="img/ui2.svg" alt="">
+            </article>
+            <article class="article-sobre">
+                <h1><span>S</span>obre mim</h1>
+                <p>Me chamo Priscilla, 32 anos, sou solteira e moro atualmente em Piraquara (região metroplitana de Curitiba).
+                    Estudo programação desde dezembro de 2020 e optei por seguir essa carreira ao perceber uma facilidade para analise de códigos.
+                    Já trabalhei em diversas areas como produção, administratitivo, RH e analise de dados. <br>
+                    Não tenho experiencia profissional como desenvolvedora mas possuo alguns projetos praticados através de cursos e bootcamps. <br>
+
+                    Sejam muito bem vindo ao meu portfólio, espero que gostem :)</p>
+            </article>
+        </section>
+    </main>
+
+    <!--Conhecimentos-->
+    <section id="skills" class="container-skills">
+
+        <h1><span>H</span>abilidades</h1>
+
+        <article class="article-skills">
+
+            <div class="article-items">
+                <h2><span style=" color: orange;">HTML</span></h2>
+                <img src="img/icons8-html5-300.png" alt="">
             </div>
-        </div>          
-    </nav>
-    <header class="header" id="home">
-        <div class="container">
-            <div class="infos">
-                <h6 class="subtitle">hello,I'm</h6>
-                <h6 class="title">Priscilla Alves</h6>
-                <p>Desenvolvedora Front-End</p>
 
-                <div class="buttons pt-3">
-                    <button class="btn btn-primary rounded">ME CONTRATE</button>
-                    <button class="btn btn-dark rounded">DOWNLOAD CV</button>
-                </div>      
+            <div class="article-items">
+                <h2><span style=" color: royalblue;">CSS</span></h2>
+                <img src="img/icons8-css3-300.png" alt="">
+            </div>
 
-                <div class="socials mt-4">
-                    <a class="social-item" href="https://www.linkedin.com/in/devpriscillaalves/"><i class="ti-linkedin"></i></a>
-                    <a class="social-item" href="https://github.com/perealvees"><i class="ti-github"></i></a>
-                    <a class="social-item" href="https://www.facebook.com/priscilla.alves.3382118"><i class="ti-facebook"></i></a>
+            <div class="article-items">
+                <h2><span style=" color: rgb(252, 255, 47);">Javascript</span></h2>
+                <img src="img/icons8-js-300.png" alt="">
+            </div>
+
+            <div class="article-items">
+                <h2><span style=" color: rgb(175, 175, 175);">Gitub</span></h2>
+                <img src="img/icons8-github-300.png" alt="">
+            </div>
+
+            <div class="article-items">
+                <h2><span style=" color: coral;">Git</span></h2>
+                <img src="img/icons8-git-300.png" alt="">
+            </div>
+
+            <div class="article-items">
+                <h2><span style=" color: rgb(18, 161, 90);">Node.JS</span></h2>
+                <img src="img/icons8-node-js-300.png" alt="">
+            </div>
+
+
+        </article>
+    </section>
+
+    <!--PROJETOS-->
+    <section id="projetos" class="container-projetos">
+
+        <h1><span>P</span>rojetos</h1>
+        <div class="container-articles--projetos">
+            <article class="article-proj">
+                <div class="article-projetos">
+                    <img src="img/pokemon.jpg" alt="">
                 </div>
-            </div>              
-            <div class="img-holder">
-                <img src="assets/imgs/college.png" alt="">
-            </div>      
-        </div>  
-    <section id="about" class="section mt-3">
-        <div class="container mt-5">
-            <div class="row text-center text-md-left">
-                <div class="col-md-3">
-                    <img src="assets/imgs/green-prof.jpg" alt="" class="img-thumbnail mb-4">
+            </article>
+
+            <article class="article-proj">
+                <div class="article-projetos">
+                    <img src="img/cordel.jpg" alt="">
                 </div>
-                <div class="pl-md-4 col-md-9">
-                    <h6 class="title">Priscilla</h6>
-                    <p class="subtitle">Desenvolvedora Front-End</p>
-                    <p>Formada em Analise e Des. de Sistemas e em transição de carreira, estou a procura da minha primeira oportunidade na área de programação como Desenvolvedora FrontEnd. <br> Não possuo vivencia profissional na area, mas já desenvolvi alguns projetos em Python, JavaScript, HTML e CSS. <br>
-                    Tenho vivência na coleta, análise e interpretação de dados para ajudar empresas a tomar decisões estratégicas, informadas através de KPI, PowerBi, Excel e Macros</p>                 
+            </article>
+
+            <article class="article-proj">
+                <div class="article-projetos">
+                    <img src="img/nike.jpg" alt="">
                 </div>
+            </article>
+
+            <article class="article-proj">
+                <div class="article-projetos">
+                    <img src="img/netflix login.jpg" alt="">
+                </div>
+            </article>
+
+            <article class="article-proj">
+                <div class="article-projetos">
+                    <img src="img/mundotech.jpg" alt="">
+                </div>
+            </article>
+
+            
+        </div>
+
+
+    </section>
+
+    <!--Contatos-->
+    <section id="contatos" class="container-contatos">
+        <h1><span>C</span>ontatos</h1>
+        <div class="content-midias">
+            <div>
+                <a href=""><img src="img/face.png" alt=""></a>
+                <li><a href="https://www.facebook.com/priscilla.alves.3382118">Facebook</a></li>
+            </div>
+
+            <div>
+                <a href=""><img src="img/insta.png" alt=""></a>
+                <li><a href="instagram.com">Instagram</a></li>
+            </div>
+            <div>
+                <a href=""><img src="img/link.png" alt=""></a>
+                <li><a href="https://www.linkedin.com/in/devpriscillaalves/">Linkedin</a></li>
+            </div>
+
+            <div>
+                <a href=""><img src="img/github.png" alt=""></a>
+                <li><a href="https://github.com/perealvees">Github</a></li>
             </div>
         </div>
     </section>
 
-    <section id="logolg" class="section">
-        <div class="container logo-lg">
-            <h6 class="section-title mb-4">SKILLS</h6>
-                <div class="imagenslogo">
-                    <img src="../Portfolio/assets/imgs/JS.png" alt="" srcset="">
-                </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <footer class="footer">
+        <div class="content-footer">
+            Priscilla Alves - 08/2021 @Direitos reservados.
         </div>
-    </section>
-   
-    <!-- End of Skills sections -->
-
-    <!-- Portfolio section -->
-    <section id="portfolio" class="section">
-        <div class="container text-center">
-            <h6 class="subtitle"></h6>
-            <h6 class="section-title mb-4">MEUS PROJETOS FAVORITOS</h6>
-            <div class="row">
-                <div class="col-sm-4">  
-                    <div class="img-wrapper">
-                        <img src="assets/imgs/folio-1.jpg" alt="">
-                        <div class="overlay">
-                            <div class="overlay-infos">
-                                <h5>Site da Nike</h5>
-                                <a href="https://perealvees.github.io/Projeto-SiteNike/"><i class="ti-link"></i></a>
-                            </div>  
-                        </div>
-                    </div>
-                    <div class="img-wrapper">
-                        <img src="assets/imgs/folio-2.jpg" alt="">
-                        <div class="overlay">
-                            <div class="overlay-infos">
-                                <h5>Cordel</h5>
-                                <a href="https://perealvees.github.io/Projeto-Cordel/"><i class="ti-link"></i></a>
-                            </div>                              
-                        </div>
-                    </div>                  
-                </div>
-                <div class="col-sm-4">
-                    <div class="img-wrapper">
-                        <img src="assets/imgs/folio-3.jpg" alt="">
-                        <div class="overlay">
-                            <div class="overlay-infos">
-                                <h5>Netflix - login
-                                </h5>
-                                <a href="https://perealvees.github.io/Projeto-Netflix/"><i class="ti-link"></i></a>
-                            </div>  
-                        </div>
-                    </div>
-                    <div class="img-wrapper">
-                        <img src="assets/imgs/folio-4.jpg" alt="">
-                        <div class="overlay">
-                            <div class="overlay-infos">
-                                <h5>Projeto Android</h5>
-                                <a href="https://perealvees.github.io/Projeto-Android/"><i class="ti-link"></i></a>
-                            </div>                              
-                        </div>
-                    </div>                  
-                </div>
-                <div class="col-sm-4">
-                    <div class="img-wrapper">
-                        <img src="assets/imgs/folio-5.jpg" alt="">
-                        <div class="overlay">
-                            <div class="overlay-infos">
-                                <h5>Pokemon</h5>
-                                <a href="https://perealvees.github.io/Projeto-Pokemon/"><i class="ti-link"></i></a>
-                            </div>  
-                        </div>
-                    </div>
-                    <div class="img-wrapper">
-                        <img src="assets/imgs/folio-6.jpg" alt="">
-                        <div class="overlay">
-                            <div class="overlay-infos">
-                                <h5>...Em construção</h5>
-                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
-                            </div>                              
-                        </div>
-                    </div>                  
-                </div>
-            </div>
-
-        </div>
-    </section>
-    <!-- End of portfolio section -->
-
-	<!-- core  -->
-    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
-    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
-    <!-- bootstrap 3 affix -->
-	<script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
-
-    <!-- steller js -->
-    <script src="assets/js/steller.js"></script>
-
+    </footer>
+    <!--SCRIPTS-->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
+
 </html>

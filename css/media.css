@@ -1,0 +1,139 @@
+/*MEDIAS*/
+@media screen and (min-width: 768px) {
+  /*navbar*/
+  .container-navbar {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;    
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  .navbar {
+    display: block;
+  }
+  .navbar ul {
+    padding: 2em;
+    display: flex;
+  }
+  .navbar a {
+    padding: 1em;
+  }
+  .logo-menu img {
+    display: none;
+  }
+  .logo-menu h1 {
+    font-size: 1.5em;
+  }
+  .logo-menu h1 > span {
+    color: rgb(132, 0, 255);
+  }
+  .logo-menu h1::after {
+    content: "</ dev >";
+    position: relative;
+    font-size: 0.8em;
+    animation: animationBarra infinite 2s;
+    margin-left: 5px;
+  }
+  /*Middle-top*/
+  .middle-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+  }
+  .info-titulo{
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+  }
+  .info-titulo h1 {
+    font-size: 2em;
+  }
+  .info-titulo h2 {
+    font-size: 1.5em;
+  }
+  .image-top{
+    margin: 50px auto;
+  }
+  .image-top img {
+    width: 500px;
+  }
+
+ /*Container-portfolio*/
+ .container-portfolio section{
+  max-width: 1200px;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+.container-portfolio .article-sobre{
+  width: 50%;
+}
+.container-portfolio .article-sobre h1{
+  font-size: 2em;
+  text-align: center;
+  margin: 30px auto;   
+}
+.container-portfolio img{
+  width: 400px;
+}
+.article-img::after{
+  content: "";
+  width: 1px;
+  position: relative;
+  left: 50px;
+  background: rgb(2, 2, 2);
+  height: 400px;
+}
+/*Habilidades*/
+.container-skills{
+  max-width: 1500px;
+}
+.article-skills{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+/*Projetos*/
+.article-proj{
+  padding: 1em;
+}
+.container-articles--projetos{
+  background: #181818;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+/*Contatos*/
+.content-midias {
+  display: flex;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.content-midias div{
+  display: flex;
+  justify-content: center;
+}
+
+}
+@media screen and (max-width: 1500px) {
+  .image-top{
+    margin: 0 auto;
+  }
+  .info-titulo{
+    margin: 0 auto;
+  }
+  .info-titulo h1, h2 {
+    text-align: center;
+  }   
+  .article-img::after{
+    display: none;
+  } 
+}
+   
