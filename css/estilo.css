@@ -372,3 +372,8 @@ h2 {
     transform: rotateY(5deg) scale(1);
   }
 }
+
+.btn-whats{
+  color: rgb(16, 184, 16);
+
+}
